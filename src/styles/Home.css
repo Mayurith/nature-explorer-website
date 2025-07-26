@@ -1,0 +1,90 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Montez', cursive;
+  font-style: italic;
+}
+/* Hero Section */
+.home {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../../public/images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.heroContent h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.heroContent p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.ctaButton {
+    background-color: #81D4FA;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+}
+
+/* Highlights Section */
+.highlights {
+    padding: 5rem 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.highlights h2 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+}
+
+.highlightsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.highlightCard {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.highlightCard:hover {
+    transform: translateY(-10px);
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
